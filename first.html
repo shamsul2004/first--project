@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;"> Learn DSA for free From Code With Sam</h1>
+        <nav style="background-color:rgb(97, 105, 100)";>
+            <ol>
+                <li><a href="#first">Java Introduction</a></li>
+                <li><a href="#second">Java Compiler</a></li>
+                <li><a href="#third">Array</a></li>
+                <li><a href="#fourth">Tree</a></li>
+                <li><a href="#fifth">Graph</a></li>
+            </ol>
+             </nav>
+            </header>
+           <main>
+              <!-- Java Introduction -->
+                <section id="first">
+               <h2>Introduction To Java</h2>
+
+              <p> Java is a class-based, object-oriented programming language that is designed to have as few implementation
+                dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA),
+                meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
+                Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices.
+                Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+               </p>
+               <h3>Features of Java</h3>
+               <ul>
+                 <ol>
+                        <li>Simple</li>
+                        <li> Portable</li>
+                        <li> Platform independent</li>
+                        <li>Secured</li>
+                        <li> Robust</li>
+                        <li> Architecture neutral</li>
+                        <li> Interpreted</li>
+                        <li> High Performance</li>
+                        <li>Multithreaded</li>
+                        <li> Distributed</li>
+                       <li> Dynamic</li>
+                 </ol>
+                 <h2>Basic Syntax </h2>
+                 <pre style="background-color: rgb(85, 217, 173);">
+                    <code>
+                        public class Main {
+                            public static void main(String[] args) {
+                              System.out.println("Hello World");
+                            }
+                          }
+                    </code>
+                </pre>
+                <ul>
+                    <li><strong >Public:</strong>This is an access modifier. It means that this class can be accessed from anywhere in the program.</li>
+                    <li><strong >Class:</strong> This keyword is used to declare a class in Java. A class is a blueprint from which objects are created.</li>
+                    <li><strong >Main: </strong> Main: This is the name of the class. It can be any valid identifier, but in this case, it is Main.</li>
+
+                    <li><strong >Public:</strong> Another access modifier. It means that the main method is accessible from outside the class.</li>
+                    <li><strong >static </strong> This keyword means that the method belongs to the class, not instances (objects) of the class. You don't need to create an object of the class to call this method.</li>
+                    <li><strong >void </strong> This specifies that the method does not return any value.
+                    <li><strong >Main: </strong>  This is the name of the method. In Java, the main method is the entry point for any standalone application.</li>
+                    <li><strong >Strong[] args:</strong> This is an array of String objects. It stores command-line arguments passed to the program. Even if no arguments are passed, this array will be created (it will just be empty).</li>
+
+                   <li><strong >Syatem:</strong> This is a built-in Java class that provides access to system-level operations, like input/output.</li>
+                   <li><strong >Out:</strong> This is a static member of the System class, representing the standard output (console).</li>
+                   <li><strong >println: </strong> This is a method of out that prints a message to the console, followed by a newline character.</li>
+                   <li><strong >"Hello World": </strong>  This is the string that will be printed to the console.</li>
+
+                   <h3>Applications of Java</h3>
+                   <ol>
+                   <li><strong>Web Applications:</strong>
+                   Java EE (Enterprise Edition) is widely used for developing large-scale, secure web applications. Java web technologies like JSP (JavaServer Pages), Servlets, and frameworks such as Spring and Hibernate enable the development of dynamic websites.
+                   Popular websites like LinkedIn and Amazon use Java for backend operations.</li>
+                   <br>
+                   <li><strong>Mobile Applications:</strong>
+                   Java is the official language for Android app development. Android apps are primarily written in Java using Android SDK.
+                   Most mobile applications on Android are built using Java, which is facilitated by Android Studio.
+                   </li>
+                   <br>
+                   <li><strong>Enterprise Applications:</strong>
+                   Java is extensively used in enterprise software development. It supports high-performance distributed computing through platforms like Java EE.
+                   It powers a wide range of enterprise applications such as banking, finance, supply chain, and resource management systems.</li>
+                   <br>
+                   <li><strong> Enterprise Applications:</strong>
+                    Java is extensively used in enterprise software development. It supports high-performance distributed computing through platforms like Java EE.</li>
+                   </ol>
+
+                </section>
+
+                <!-- C++ Compiler -->
+               <section id="second">
+                <h2>Online java Compiler</h2>
+                <iframe src="https://onecompiler.com/java" frameborder="0"
+                  height="600"
+                  width="100%"
+                  title="Online java Compiler"></iframe>
+
+                  <br><br>
+                </section>
+                 <!-- Array -->
+
+        <section id="third">
+            <h2>Introduction to Arrays</h2>
+            <h3>What is an Array?</h3>
+            <p>An array is a data structure that stores a collection of elements, typically of the same data type. Arrays are used to store multiple values in a single variable, which allows for efficient data management and manipulation.</p>
+            <img src="./Arrays.webp" alt="Array picture">
+
+            <h3>Characteristics of Arrays</h3>
+            <ul>
+                <li>Fixed Size: The size of an array is defined when it is created and cannot be changed.</li>
+                <li>Indexed: Each element in an array is accessed using an index, which typically starts from 0.</li>
+                <li>Homogeneous Elements: All elements in an array must be of the same data type, such as integers, floats, or strings.</li>
+            </ul>
+
+            <h3>Types of Arrays</h3>
+            <ol>
+                <li>One-Dimensional Arrays: A linear list of elements, where each element can be accessed by a single index
+                    <ul>
+                        <li>Example: int numbers[5]; (stores 5 integers)</li>
+                    </ul>
+                </li>
+                <li>Multi-Dimensional Arrays: Arrays with more than one dimension, commonly used for matrices and tables
+                    <ul>
+                        <li>Example: int matrix[3][3]; (a 3x3 matrix of integers)</li>
+                    </ul>
+                </li>
+                <li>Dynamic Arrays: Arrays that can change size during program execution, typically implemented using data structures like lists.</li>
+            </ol>
+            <h2>Tutorial for Array</h2>
+            <table>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/NTHVTY6w2Co" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/kJW_iXrwePE" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/hUdqNPhXOh4" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/9_B6TmAHveU" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/V3vM_m2iFtk" frameborder="0" height="250" width="400"></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="0" height="250" width="400"></iframe></td>
+                </tr>
+             </table>
+            </section>
+                    <!-- Tree -->
+         <section id="fourth">
+            <h2>Introduction to Trees</h2>
+            <p> A tree is a hierarchical data structure that consists of nodes connected by edges. Each tree has a single root node at the top, from which all other nodes branch out. Nodes can have zero or more child nodes, and each child node can further branch out into more nodes. Trees are commonly used to represent hierarchical relationships, such as file systems or organizational structures. </p>
+
+            <img src="./Trees.webp" alt="Tree picture" height="300" width="800">
+
+            <h3>Characteristics of Trees</h3>
+            <ul>
+                <li>Root Node: The topmost node in a tree, which has no parent.</li>
+                <li>Child Node: A node that is a descendant of another node.</li>
+                <li>Parent Node: A node that has one or more child nodes.</li>
+                <li>Leaf Node: A node that has no children.</li>
+                <li>Depth: The number of edges from the root node to a specific node.</li>
+                <li>Height: The number of edges on the longest path from a node to a leaf.</li>
+            </ul>
+
+            <h3>Types of Trees</h3>
+            <ol>
+                <li>Binary Tree: Each node has at most two children, referred to as the left and right children.</li>
+                <li>Binary Search Tree (BST): A binary tree where the left child contains only nodes with values less than the parent node, and the right child contains only nodes with values greater than the parent node.</li>
+                <li>AVL Tree: A self-balancing binary search tree where the difference in heights between the left and right subtrees is at most one.</li>
+                <li>Red-Black Tree: A balanced binary search tree with an additional property that ensures the tree remains balanced during insertions and deletions.</li>
+                <li>N-ary Tree: A tree in which a node can have at most N children.</li>
+            </ol>
+
+            <h3>Applications of Trees</h3>
+            <ul>
+                <li>Data Storage: Trees are used in databases for indexing data and improving search performance.</li>
+                <li>File Systems: Hierarchical file systems use tree structures to organize files and directories.</li>
+                <li>Network Routing: Trees are used in routing algorithms to manage and optimize the flow of data across networks.</li>
+                <li>Artificial Intelligence: Trees, such as decision trees, are used in AI algorithms for decision-making processes.</li>
+            </ul>
+        </section>
+
+
+            <!-- Graph -->
+    <section id="fifth">
+            <h2>Introduction to Graphs</h2>
+        <p> A graph is a data structure that consists of a set of vertices (or nodes) and a set of edges that connect pairs of vertices. Graphs are used to represent relationships or connections between various entities and are fundamental in computer science for modeling complex networks, such as social networks, transportation systems, and communication networks. </p>
+        <img src="./Graphs.webp" alt="Graphs picture" height="300" width="800">
+
+        <h3>Characteristics of Graphs</h3>
+        <ul>
+            <li>Vertices (Nodes): The fundamental units of a graph, representing entities in the graph.</li>
+            <li>Edges: Connections between pairs of vertices, which can be directed (one-way) or undirected (two-way).</li>
+            <li>Degree: The number of edges connected to a vertex. For directed graphs, a vertex can have an in-degree (number of incoming edges) and an out-degree (number of outgoing edges).</li>
+            <li>Path: A sequence of edges that connects a sequence of vertices</li>
+            <li>Cycle: A path that starts and ends at the same vertex without repeating any edges.</li>
+        </ul>
+
+        <h3>Types of Graphs</h3>
+        <ol>
+            <li>Directed Graph (Digraph): A graph where the edges have a direction, indicating the relationship flows from one vertex to another.</li>
+            <li>Undirected Graph: A graph where the edges do not have a direction, indicating a two-way relationship between vertices.</li>
+            <li>Weighted Graph: A graph where each edge has an associated weight or cost, often used to represent distances or costs in a network.</li>
+            <li>Unweighted Graph: A graph where all edges are treated equally, without any weights.</li>
+            <li>Cyclic Graph: A graph that contains at least one cycle.</li>
+            <li>Acyclic Graph: A graph that does not contain any cycles, such as a tree.</li>
+        </ol>
+
+        <h3>Applications of Graphs</h3>
+        <ol>
+            <li>Social Networks: Graphs are used to model relationships and interactions between individuals or entities in social media platforms.</li>
+            <li>Transportation Networks: Graphs represent roads, intersections, and routes in transportation systems, helping optimize travel and logistics.</li>
+            <li>Web Page Link Analysis: The structure of the web can be represented as a graph, with web pages as vertices and hyperlinks as edges, enabling search engines to analyze and rank pages.</li>
+            <li>Network Flow: Graphs are utilized in flow networks to model the flow of resources, such as electricity or data, through a network.</li>
+        </ol>
+
+        <h2>Tuturorial for Graph</h2>
+        <table border="1">
+
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/gGlfzqPT-hE" frameborder="0" height="300" width="500"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/bxbrUGvBCnY" frameborder="0" height="300" width="500"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/Vtu7qgF0ksw" frameborder="0" height="300" width="500"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/oz1EaP_Bw4s" frameborder="0" height="300" width="500"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/2JgYwQ6TZ44" frameborder="0" height="300" width="500"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/sPlN86EpjJA" frameborder="0" height="300" width="500"></iframe></td>
+            </tr>
+        </table>
+
+    </section>
+
+
+
+
+
+        </main>
+        <footer>
+            <p>&copy; All Rights are reserved by Rohit Negi</p>
+        </footer>
+    </body>
+    </html>
